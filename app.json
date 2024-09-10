@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "sdapp",
+    "slug": "sdapp",
+    "version": "1.0.0",
+    "orientation": "portrait"
+  
+  
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#38a69d"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+
