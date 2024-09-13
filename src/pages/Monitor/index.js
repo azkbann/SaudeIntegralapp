@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, ScrollView, StyleSheet, SafeAreaView, TouchableOpacity } from 'react-native';
 import { Svg, Circle, Text as SvgText } from 'react-native-svg';
 import Icon from 'react-native-vector-icons/Feather';
-import { useNavigation } from '@react-navigation/native'; // Importando o hook de navegação
+import { useNavigation } from '@react-navigation/native'; 
 
 const ProgressBar = ({ progress, label }) => (
   <View style={styles.progressContainer}>
@@ -61,9 +61,9 @@ const CircularProgress = ({ progress, label, size = 100 }) => {
 };
 
 const Monitor = () => {
-  const navigation = useNavigation(); // Inicializando o hook de navegação
+  const navigation = useNavigation(); 
 
-  // Função para voltar para a tela anterior
+  
   const goBack = () => {
     navigation.goBack();
   };

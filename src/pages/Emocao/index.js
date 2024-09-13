@@ -11,7 +11,7 @@ const Emocao = ({ navigation }) => {
       text: 'Hoje, estou transbordando de alegria e euforia! Sinto-me como se estivesse flutuando nas nuvens, com um sorriso permanente no rosto.',
       icon: 'happy-outline',
     },
-    // ... (other initial entries)
+    
   ]);
 
   const [modalVisible, setModalVisible] = useState(false);
@@ -23,7 +23,7 @@ const Emocao = ({ navigation }) => {
   };
 
   const handleGoHome = () => {
-    navigation.navigate('Inicial'); // Navegando para a tela inicial (ajuste o nome 'Home' conforme sua rota)
+    navigation.navigate('Inicial'); 
   };
 
   const handleAddEntry = () => {

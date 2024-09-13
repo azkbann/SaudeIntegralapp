@@ -101,7 +101,7 @@ const Perfil = ({ navigation }) => {
         meditacao={meditacao}
       />
 
-      {/* Botão "Ver consultas agendadas" com seta apontando para a direita */}
+      
       <TouchableOpacity style={styles.button} onPress={handleNavigateAgconsultas}>
         <Text style={styles.buttonText}>Agendar Consultas</Text>
         <Ionicons name="arrow-forward" size={24} color="white" style={styles.icon} />
@@ -109,7 +109,7 @@ const Perfil = ({ navigation }) => {
 
       <HumorGraph data={humorData} />
 
-      {/* Botão "Diário de Emoções" */}
+      
       <TouchableOpacity style={styles.button} onPress={handleNavigateEmocao}>
         <Text style={styles.buttonText}>Diário de Emoções</Text>
       </TouchableOpacity>
@@ -193,17 +193,17 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
   button: {
-    backgroundColor: '#FFF', //Alterar esta cor
+    backgroundColor: '#FFF', 
     padding: 10,
     borderRadius: 8,
     borderWidth: 3,
     borderColor: 'white',
     alignItems: 'center',
-    flexDirection: 'row', // Para alinhar o ícone e o texto na mesma linha
-    justifyContent: 'center', // Centraliza o conteúdo
+    flexDirection: 'row', 
+    justifyContent: 'center', 
     marginTop: 10,
     marginBottom: 20,
-    position: 'relative', // Para uso do ícone flutuante
+    position: 'relative', 
   },
   buttonText: {
     color: '#0094DB',
@@ -211,8 +211,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   icon: {
-    position: 'absolute', // Faz o ícone "flutuar"
-    right: 10, // Posiciona o ícone à direita do botão
+    position: 'absolute', 
+    right: 10, 
   },
 });
 

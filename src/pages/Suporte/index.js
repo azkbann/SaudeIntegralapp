@@ -12,7 +12,7 @@ const Suporte = () => {
   };
 
   const handleOpenTicket = () => {
-    // Implement ticket opening logic here
+    
     console.log('Opening ticket with message:', message);
   };
 

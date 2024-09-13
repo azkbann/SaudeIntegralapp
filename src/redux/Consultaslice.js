@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const Consultaslice = createSlice({
   name: 'consultas',
   initialState: {
-    historico: [], // estado inicial
+    historico: [], 
   },
   reducers: {
     adicionarConsulta: (state, action) => {

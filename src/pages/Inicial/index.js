@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Image } from 'react-native';
-import { Menu, User, Calendar, Activity, HelpCircle, ChevronDown, BookmarkMinus, Home, X } from 'lucide-react-native'; // Importando o ícone X
-import { useNavigation } from '@react-navigation/native'; // Importando o hook de navegação
+import { Menu, User, Calendar, Activity, HelpCircle, ChevronDown, BookmarkMinus, Home, X } from 'lucide-react-native'; 
+import { useNavigation } from '@react-navigation/native'; 
 
 const Inicial = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigation = useNavigation(); // Inicializando o hook de navegação
+  const navigation = useNavigation(); 
 
-  // Função para navegar para a tela desejada
+  
   const navigateTo = (screen) => {
-    setIsMenuOpen(false); // Fecha o menu ao navegar
+    setIsMenuOpen(false); 
     navigation.navigate(screen);
   };
 
   return (
     <View style={styles.container}>
-      {/* Hamburger menu */}
+      
       {isMenuOpen && (
         <View style={styles.menu}>
           <TouchableOpacity style={styles.closeButton} onPress={() => setIsMenuOpen(false)}>
@@ -45,9 +45,9 @@ const Inicial = () => {
         </View>
       )}
 
-      {/* Main content */}
+      
       <View style={styles.mainContent}>
-        {/* Header */}
+        
         <View style={styles.header}>
           <TouchableOpacity onPress={() => setIsMenuOpen(!isMenuOpen)}>
             <Menu size={24} style={styles.headerIcon} />
@@ -56,7 +56,7 @@ const Inicial = () => {
           <View style={styles.headerPlaceholder} />
         </View>
 
-        {/* Dashboard content */}
+        
         <ScrollView style={styles.scrollView}>
           <View style={styles.card}>
             <View style={styles.cardHeader}>
@@ -92,10 +92,10 @@ const Inicial = () => {
           </View>
 
           <Text style={styles.sectionTitle}>Destaques</Text>
-          {/* Placeholder for more content */}
+          
         </ScrollView>
 
-        {/* Footer navigation */}
+        
         <View style={styles.footer}>
           <Home size={24} />
           <Activity size={24} />
@@ -118,14 +118,14 @@ const styles = StyleSheet.create({
     left: 0,
     top: 0,
     bottom: 0,
-    width: 200, // Largura reduzida do menu
-    backgroundColor: '#1f2937', // Cor de fundo azul
+    width: 200, 
+    backgroundColor: '#1f2937', 
     shadowColor: '#000',
     shadowOpacity: 0.1,
     shadowRadius: 8,
     elevation: 4,
     zIndex: 20,
-    transform: [{ translateX: 0 }], // Você pode animar isso com base no estado isMenuOpen
+    transform: [{ translateX: 0 }], 
     padding: 16,
   },
   closeButton: {
@@ -135,16 +135,16 @@ const styles = StyleSheet.create({
     zIndex: 30,
   },
   closeIcon: {
-    color: '#fff', // Cor do ícone de fechar
+    color: '#fff', 
   },
   menuContent: {
-    marginTop: 48, // Ajustar com base na altura do botão de fechar
+    marginTop: 48, 
   },
   menuTitle: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 16,
-    color: '#fff', // Cor do texto do título do menu
+    color: '#fff', 
   },
   menuItem: {
     flexDirection: 'row',
@@ -153,10 +153,10 @@ const styles = StyleSheet.create({
   },
   menuIcon: {
     marginRight: 8,
-    color: '#fff', // Cor dos ícones no menu
+    color: '#fff', 
   },
   menuText: {
-    color: '#fff', // Cor do texto no menu
+    color: '#fff', 
     fontSize: 16,
   },
   mainContent: {

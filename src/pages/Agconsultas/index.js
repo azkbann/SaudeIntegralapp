@@ -11,20 +11,20 @@ const Agconsultas = ({ navigation }) => {
 
   const handleConfirmar = () => {
     if (dataSelecionada !== null && horarioSelecionado !== null) {
-      // Crie a consulta para ser armazenada
+      
       const novaConsulta = {
-        data: ['seg', 'ter', 'qua', 'qui', 'sex', 'sab'][dataSelecionada], // Adapte conforme sua lógica
-        horario: ['09:00', '10:20', '11:40', '14:00', '15:20', '16:40'][horarioSelecionado], // Adapte conforme sua lógica
+        data: ['seg', 'ter', 'qua', 'qui', 'sex', 'sab'][dataSelecionada], 
+        horario: ['09:00', '10:20', '11:40', '14:00', '15:20', '16:40'][horarioSelecionado], 
       };
 
-      // Adicione a consulta ao histórico usando Redux
+      
       dispatch(adicionarConsulta(novaConsulta));
       
-      // Atualiza o estado para mostrar o ticket e navega para a tela de Histórico de Agendamentos
+      
       setMostrarTicket(true);
       setTimeout(() => {
         navigation.navigate('AgendamentosHistorico');
-      }, 1500); // Ajuste o delay conforme necessário
+      }, 1500); 
     } else {
       alert('Por favor, selecione a data e o horário.');
     }
@@ -105,12 +105,12 @@ const Agconsultas = ({ navigation }) => {
 
         <Text style={styles.tituloSecao}>Resumo do agendamento</Text>
 
-        {/* Botão de confirmação */}
+        
         <TouchableOpacity style={styles.botaoConfirmar} onPress={handleConfirmar}>
           <Text style={styles.textoBotaoConfirmar}>Confirmar Consulta</Text>
         </TouchableOpacity>
 
-        {/* Botão de ticket verde */}
+        
         {mostrarTicket && (
           <TouchableOpacity style={styles.botaoTicket}>
             <Text style={styles.textoBotaoTicket}>✔ Agendamento Efetuado</Text>
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     padding: 20,
-    paddingBottom: 100, // Espaço extra para evitar sobreposição com o botão de confirmação
+    paddingBottom: 100, 
   },
   header: {
     flexDirection: 'row',
@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   botaoDataSelecionado: {
-    backgroundColor: '#4CAF50', // Verde para a data selecionada
+    backgroundColor: '#4CAF50', 
   },
   textoData: {
     textAlign: 'center',
@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   botaoHorarioSelecionado: {
-    backgroundColor: '#4CAF50', // Verde para o horário selecionado
+    backgroundColor: '#4CAF50', 
   },
   textoHorario: {
     textAlign: 'center',
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   botaoConfirmar: {
-    backgroundColor: '#4CAF50', // #1f2937 Verde para o botão de confirmação
+    backgroundColor: '#4CAF50', 
     borderRadius: 5,
     padding: 15,
     alignItems: 'center',
@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   botaoTicket: {
-    backgroundColor: '#1f2937', // Verde para o ticket
+    backgroundColor: '#1f2937', 
     borderRadius: 5,
     padding: 15,
     alignItems: 'center',

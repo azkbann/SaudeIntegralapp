@@ -7,17 +7,17 @@ import { Telalogin } from '../../../services/authService';
 
 
 export default function Signin() {
-  const navigation = useNavigation();  // Hook de navegação
-  const [loading, setLoading] = useState(false);  // Estado de carregamento
+  const navigation = useNavigation();  
+  const [loading, setLoading] = useState(false);  
 
   const handleLogin = () => {
-    setLoading(true);  // Ativa o carregamento
+    setLoading(true);  
 
-    // Simulando uma requisição de login com timeout
+    
     setTimeout(() => {
-      setLoading(false);  // Desativa o carregamento após a "requisição"
-      navigation.navigate('Inicial');  // Navega para a tela Inicial
-    }, 2000);  // Tempo de 2 segundos para simular a requisição
+      setLoading(false);  
+      navigation.navigate('Inicial');  
+    }, 2000);  
   };
 
   return (
@@ -33,7 +33,7 @@ export default function Signin() {
         <Text style={styles.title}>Senha</Text>
         <TextInput placeholder="Sua senha." style={styles.input} secureTextEntry={true} />
 
-        {/* Se estiver carregando, exibe o indicador de carregamento, senão, exibe o botão */}
+        
         {loading ? (
           <ActivityIndicator size="large" color="#0094DB" style={styles.loading} />
         ) : (
