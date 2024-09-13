@@ -4,7 +4,6 @@ import { View,
          StyleSheet,
          Image,
          TouchableOpacity,} from 'react-native';
-
 import * as Animatable from 'react-native-animatable'
 
 import {useNavigation} from '@react-navigation/native'
@@ -29,7 +28,7 @@ export default function Welcome() {
                 
                 <TouchableOpacity
                  style={styles.button}
-                 onPress={ () => navigation.navigate('Signin')}>
+                 onPress={ () => navigation.navigate('Telalogin')}>
 
                     <Text style={styles.buttonText}>Login</Text>
                 </TouchableOpacity>
