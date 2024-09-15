@@ -35,14 +35,15 @@ O app possui diversas telas com diversas funcionalidades, como o objetivo é cen
 ![Login-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.49-2.jpeg?raw=true)
 ![Home-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.49-3.jpeg?raw=true)
 ![MenuLateral-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.49-4.jpeg?raw=true)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
-![-images](https://user-images.githubusercontent.com/84423626/179753566-7cf29be9-a980-4d9b-ae20-47b043eb54e7.PNG)
+![Agendamento-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.50-2.jpeg?raw=true)
+![ConfirmacaoAgendamento-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.50-3.jpeg?raw=true)
+![Emocoes-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.50-4.jpeg?raw=true)
+![Perfil-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.50-5.jpeg?raw=true)
+![HistoricoAgendamento-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.50.jpeg?raw=true)
+![MonitorSaude-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.51-2.jpeg?raw=true)
+![CancelarAgendamento-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.51-3.jpeg?raw=true)
+![EditarAgendamento-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.51-4.jpeg?raw=true)
+![Suporte-images](https://github.com/azkbann/SaudeIntegralapp/blob/main/imagens_app/WhatsApp%20Image%202024-09-12%20at%2020.14.51.jpeg?raw=true)
    
 
 ## Acesso ao projeto
@@ -50,10 +51,3 @@ O app possui diversas telas com diversas funcionalidades, como o objetivo é cen
 Você pode [acessar o código fonte do projeto](https://github.com/azkbann/SaudeIntegralapp).
 
 ## Abrir e rodar o projeto
-
-Após baixar o projeto, você pode abrir com o `Eclipse`. Para isso, na tela de launcher clique em:
-
-- `Open an Existing Project` (ou alguma opção similar);
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo);
-- Por fim clique em `OK`.
-- Ao finalizar, você pode executar o App 🏆
