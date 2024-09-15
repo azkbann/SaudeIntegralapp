@@ -51,3 +51,5 @@ O app possui diversas telas com diversas funcionalidades, como o objetivo é cen
 Você pode [acessar o código fonte do projeto](https://github.com/azkbann/SaudeIntegralapp).
 
 ## Abrir e rodar o projeto
+
+instalar o nodejs, baixar o expo-go + Android Studio para simular qualquer versão do sistema Android,  baixar o projeto do github, instalar todas as dependencias que já estão no Projeto com o comando npm install,e por fim rodar com o comando npx expo start  para iniciar o projeto no emulador.
